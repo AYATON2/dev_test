@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #060e1d, #020816);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #060e22;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+img {
+    border-radius: 200px;
+    margin-right: 30px;
+    margin-right: 300px;
+
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-secondary {
+    background: #1f2937;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+
+/* BACKGROUND */
+body {
+    min-height: 100vh;
+    background:
+        radial-gradient(circle at 50% -20%, #0c1830, #0b1324 60%),
+        #0b1324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* CONTACT CARD */
+.contact-card {
+    background: #121a2f;
+    border-radius: 18px;
+    padding: 28px;
+    text-align: center;
+
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,0.04),
+        0 18px 40px rgba(0,0,0,0.65);
+}
+
+/* Title */
+.contact-title {
+    font-size: 26px;
+    color: #7ab8ff;
+    margin-bottom: 6px;
+}
+
+.contact-sub {
+    color: #9ca3af;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* FORM GROUP */
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #cbd5e1;
+}
+
+/* INPUTS */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #2a3553;
+    background: #0f172a;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.25s;
+}
+
+/* FOCUS EFFECT */
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.25);
+}
+
+/* SEND BUTTON */
+.send-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(180deg,#3b82f6,#2563eb);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.25s;
+}
+
+.send-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(59,130,246,0.45);
+}
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #7ab8ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
