@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Contact Page</title>
     <link rel="stylesheet" href="style.css">
+    <title>Antig Second Page</title>
+
+<ul>
+  <li><a href="http://127.0.0.1:5500/dev_test/index.html">Home</a></li>
+<ul>
+
 </head>
-
 <body>
+    
+<h1>Ayaton Portfolio</h1>
+<h2>Contacts</h2>
+<h1>Let's Make What's On Your Mind!</h1>
 
-    <h1>Let's Make What's On Your Mind!</h1>
+<div class="contact-form">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <div class="contact-form">
-        <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+<div class="contactButtons">
+    <h3>Follow Me</h3>
+    <a href="https://www.facebook.com/esidore.ayaton" target="_blank">Facebook</a>
+    <a href="" target="_blank">Instagram</a>
+    <a href="https://github.com/AYATON2" target="_blank">GitHub</a>
+</div>
 
-            <button type="submit">Send Message</button>
-
-        </form>
-    </div>
-
+<script src="script.js"></script>
 </body>
-
 </html>
